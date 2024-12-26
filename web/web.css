@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.res {
+    display: flex;
+    justify-content: center;
+}
+
+#mainbooking {
+    max-width: 100%;
+    width: 90%;
+}
+
+.ress {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.headerbgcl {
+    max-width: 100%;
+    width: 100%;
+    padding: 20px;
+    background: #F1EBFF;
+    justify-content: center;
+    display: flex;
+    gap: 12px;
+}
+
+#headertxt {
+    width: auto;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hdtxt, .hdtxts {
+    color: #40D;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.hdtxts {
+    color: #5E6577;
+}
+
+#mainbooking {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+    max-width: 1040px;
+
+.city {
+    display: flex;
+    padding: 8px 24px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    background: #F1EBFF;
+}
+
+#bg {
+    display: flex;
+    width: 56px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: #40D;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
+    max-width: 1040px;
+}
+
+.flex img {
+    max-width: 100%;
+    height: auto;
+    flex: 1 1 40%;
+}
+
+.flexs {
+    text-align: right;
+    color: #5E6577;
+    font-size: 16px;
+}
