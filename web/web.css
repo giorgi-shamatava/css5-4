@@ -39,7 +39,8 @@
     flex-wrap: wrap;
 }
 
-.hdtxt, .hdtxts {
+.hdtxt,
+.hdtxts {
     color: #40D;
     font-size: 16px;
     text-decoration: none;
@@ -55,6 +56,15 @@
     justify-content: space-between;
     gap: 16px;
     max-width: 1040px;
+}
+
+.mainbooking {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1040px;
+    width: 100%;
+}
 
 .city {
     display: flex;
@@ -75,23 +85,146 @@
     background: #40D;
 }
 
+.hotelpic {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+}
+
 .flex {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     gap: 16px;
     width: 100%;
-    max-width: 1040px;
-}
-
-.flex img {
-    max-width: 100%;
-    height: auto;
-    flex: 1 1 40%;
+    max-width: 422px;
 }
 
 .flexs {
-    text-align: right;
     color: #5E6577;
+    text-align: right;
+    font-family: Inter;
+    font-size: 32px;
+    max-width: 570px;
+    align-items: center;
+}
+
+#price {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.total {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    border-bottom: 1px solid #CCD3E0;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.bottoms {
+    padding-bottom: 24px;
+    color: #40D;
+    font-family: Inter;
     font-size: 16px;
+}
+
+.bottom {
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 65px;
+}
+
+.pass {
+    max-width: 1040px;
+    min-height: 272px;
+    border-right: 1px solid #155EEF;
+    border-left: 1px solid #000;
+    border-top: 1px solid #8CE900;
+    border-bottom: 1px solid #DD2590;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.passtxt {
+    width: 488px;
+    margin-top: 18px;
+    padding: 16px 24px;
+}
+
+#pstxt {
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.passtxt2 {
+    width: 488px;
+    margin-top: 18px;
+    padding: 16px 24px;
+}
+
+#pstxt2 {
+    color: #969696;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.located {
+    display: flex;
+    max-width: 1040px;
+    min-height: 272px;  
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #40D;
+    background: #EDE6FC;
+    flex-wrap: wrap;
+}
+
+#locatedtxt {
+    color: #3B3B3B;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+#locatedtxt2 {
+    color: #5E6577;
+
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.clink {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1040px;
+    min-height: 272px;
+    align-items: flex-end;
+    gap: 16px;
+    border-radius: 8px;
+    border: 1px solid #004FE3;
+}
+
+.footer {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+}
+
+.footerborder {
+    border-top: 1px solid #F1EBFF;
+    display: flex;
+    width: 1440px;
+    padding: 40px 200px 0px 928px;
+    justify-content: flex-end;
+    gap: 24px;
 }
