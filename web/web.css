@@ -215,6 +215,7 @@
 }
 
 .footer {
+    margin-top: 193px;
     display: flex;
     max-width: 100%;
     width: 100%;
@@ -224,7 +225,6 @@
     border-top: 1px solid #F1EBFF;
     display: flex;
     width: 1440px;
-    padding: 40px 200px 0px 928px;
     justify-content: flex-end;
-    gap: 24px;
+    gap: 24px;padding-top: 40px;
 }
